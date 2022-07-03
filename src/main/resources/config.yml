@@ -1,16 +1,50 @@
-
+# Neue Prefix setzten:
+# 1. Bei Permission-Name die permission einfügen.
+# 2. Bei Permission-Prefix erneut die permission einfügen.
+# Beispiel:
+#
+# Permission-Prefix:
+#   test:
+# Permission-Name:
+#   - test
+#
+# 3. Nach der Permission und dem Doppelpunkt "" einfügen und darinnen die Prefix. P.s man kann mit & farbcodes benutzten.
+#
+# Beispiel:
+#
+# Permission-Prefix:
+#   test: "&4TestPrefix"
+# Permission-Name:
+#   - test
 
 
 Scoreboard:
-    Permission-Rank:
-        owner: "Owner"
-        coowner: "CoOwner"
-        admin: "Admin"
-        mod: "Moderator"
-        supporter: "Supporter"
-        dev: "Developer"
-        builder: "Builder"
-        user: "Player"
+    Refresh-Time: 5 # in Sekunden
+    Permission-Prefix:
+        owner: "&4Owner"
+        coowner: "&4CoOwner"
+        admin: "&cAdmin"
+        mod: "&1Moderator"
+        supporter: "&bSupporter"
+        dev: "&3Developer"
+        builder: "&eBuilder"
+        user: "&aPlayer"
+
+    Permission-Name:
+        - owner
+        - coowner
+        - admin
+        - mod
+        - supporter
+        - dev
+        - builder
+
+
+    World-Prefix:
+        world: "Spawn"
+
+    World-Name:
+        - world
 
 
 
