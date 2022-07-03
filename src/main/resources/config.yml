@@ -1,0 +1,24 @@
+
+
+
+Scoreboard:
+    Permission-Rank:
+        owner: "Owner"
+        coowner: "CoOwner"
+        admin: "Admin"
+        mod: "Moderator"
+        supporter: "Supporter"
+        dev: "Developer"
+        builder: "Builder"
+        user: "Player"
+
+
+
+
+
+
+TabList:
+
+
+
+
